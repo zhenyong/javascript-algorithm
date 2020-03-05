@@ -1,0 +1,14 @@
+{
+  "name": "javascript-algorithim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zhenyong/javascript-algorithim.git",
+  "author": "zhenyong <116982086@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
