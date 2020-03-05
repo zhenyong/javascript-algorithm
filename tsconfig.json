@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "include": ["**/*.ts"],
+  "exclude": []
+}
