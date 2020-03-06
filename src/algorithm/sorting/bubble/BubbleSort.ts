@@ -1,9 +1,10 @@
-// module.exports = {
+/* eslint-disable no-plusplus */
+
 export function xsort(inputArr) {
   const arr = [...inputArr];
   const size = arr.length;
   let sorted = false;
-  for (let j = size - 1; j > 0 && sorted == false; j--) {
+  for (let j = size - 1; j > 0 && !sorted; j--) {
     sorted = true;
     for (let i = 0; i < j; i++) {
       if (arr[i] > arr[i + 1]) {
@@ -30,4 +31,3 @@ export function sort(inputArr) {
   }
   return arr;
 }
-// };

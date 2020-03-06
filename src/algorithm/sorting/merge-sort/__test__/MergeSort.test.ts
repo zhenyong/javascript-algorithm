@@ -1,4 +1,4 @@
-import { sort } from "../BubbleSort";
+import { sort } from "../MergeSort";
 
 describe("BubbleSort", () => {
   it("应该正确排序", () => {
