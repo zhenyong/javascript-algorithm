@@ -24,7 +24,8 @@
         "tsx": "never",
         "mjs": "never"
       }
-    ]
+    ],
+    "no-plusplus": [1]
   },
   "settings": {
     "import/resolver": {
